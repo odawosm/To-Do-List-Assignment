@@ -11,18 +11,21 @@
 
 <body>
 
-  <h1>TODO List</h1>
+  <div class="container">
 
-  <p>Enter a new task and click the "Add Task" button to add it to the list.</p>
+    <h1>TODO List</h1>
+    <p>Enter a new task and click the "Add Task" button to add it to the list.</p>
+    
+    <form>
 
-  <form>
+      <input type="text" id="newTask" placeholder="Enter a new task">
+      <input type="submit" id="submit" value="Add Task">
 
-    <input type="text" id="newTask" placeholder="Enter a new task">
-    <input type="submit" id="submit" value="Add Task">
+    </form>
 
-  </form>
+    <ul id="taskList"></ul>
 
-  <ul id="taskList"></ul>
+  </div>
 
   <script src="script.js"></script>
 
